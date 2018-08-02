@@ -1,13 +1,579 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Elies Kedim</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="img/thomas.png" /><!-- Ajout icon dans le navigateur -->
+    <link rel="stylesheet" href="css/style.css" /><!-- Mon fichier css perso après tous les autres fichier css pour être sur que mon contenu ne sera pas écraser -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-    <h1>Elies</h1>
-    <p>Je vous baise !</p>
+
+<body id="page-top" class="index">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom"><!-- Début de la barre de navigation -->
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Elies Kedim</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Mes Projets</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">A propos de moi</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" id="icon-profile" src="img/profile2.png" alt="icone c#"><!-- L'icone en haut du site -->
+                    <div class="intro-text">
+                        <span class="name">Développeur Web</span>
+                        <hr class="star-light">
+                        <span class="skills">Développeur Web - Intégrateur Web - Développeur Mobile</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <section id="portfolio"><!-- Début de la session porfolio -->
+        <div class="container">
+            <div class="row masonry-grid">
+                <div class="col-md-6 col-lg-4 masonry-column">
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal1" class="portfolio-link thumbnail" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/Maquette1.PNG">
+                        </a>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal4" class="portfolio-link thumbnail" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/portfoliov1.png">
+                        </a>
+                    </div>
+                    <!-- <div class="portfolio-item">
+                            <div style="height: 250px; width: 400px;"></div>
+                        
+                    </div> -->
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal2" class="portfolio-link thumbnail" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/Maquette2.PNG">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 masonry-column">
+                <div class="portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link thumbnail" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Maquette3.PNG">
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <div style="height: 250px; width: 400px; text-align: center; margin-top: 200px;"><h2>Mes projets</h2></div>
+                
+                </div><!-- Fin Block Blanc -->
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal1" class="portfolio-link thumbnail" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/Maquette.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 masonry-column">
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal1" class="portfolio-link thumbnail" data-toggle="modal">
+                            <img src="img/portfolio/_maquette.jpg">
+                        </a>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal1" class="portfolio-link thumbnail" data-toggle="modal">
+                            <img src="http://via.placeholder.com/400x450/3F51B5/fff">
+                        </a>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal1" class="portfolio-link thumbnail" data-toggle="modal">
+                            <img src="http://via.placeholder.com/400x450/3F51B5/fff">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Fin de mon container Masonry -->
+    </section><!-- Fin de la section portfolio -->
+
+    <section class="success" id="about"><!-- Début section à propos de moi -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>A propos de moi</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="container-fluid">
+                    <p>Je m'appel Elies Kedim j'ai 25 ans et j'ai d'écouvert le code a l'age de 10 ans, j'ai ensuite appris les bases de la programmation en loisir. Afin d'obtenir une structure et une éxpèrience du développement informatique en groupe j'ai intégrer la formation du <a href="http://lepoles.org/">PoleS</a> afin d'obtenir des bases saine de programmation. J'ai ainsi obtenu les certification Intégrateur Web et Développeur web délivrer par l'organisme <a href="http://www.wf3.fr/">WebForce 3</a>. Éstampiller grande école du numérique.</p>
+                </div>
+                <div class="col-lg-4 passions">
+                    <img src="img/portfolio/game.png" alt="">
+                    <p>Geek dans l'âme je suis passionnée de jeux video de tout type et de toutes horizons. Même si j'avoue avoir une certaine préference pour les RPG et les jeux de stratègie.</p>
+                </div>
+                <div class="col-lg-4 passions">
+                    <img src="img/mangas.png" alt="">
+                    <p>J'adore les mangas! que se soit les dessin l'histoire je suis fan de japanimation (Jeux video Mangas Musique le stéreotype
+                    du geek de base quoi ^_^)</p>
+                </div>
+                <div class="col-lg-4 passions">
+                    <img src="img/musique.png" alt="">
+                    <p>J'ai aussi une grande passion pour la musique que je pratique en loisir.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>N'hésitez pas à me contacter</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Nom</label>
+                                <input type="text" class="form-control" placeholder="Nom" id="name" required data-validation-required-message="Entrer votre nom.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email</label>
+                                <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Veuillez entrer votre adresse mail.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Numéro de téléphone</label>
+                                <input type="tel" class="form-control" placeholder="Numéro de téléphone" id="phone" required data-validation-required-message="Veuillez entrer votre numéro de téléphone.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Vuillez entrer un message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Contacter</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Adresse</h3>
+                        <p>2 Avenue de la Gare
+                            <br>Gennevilliers, 92230</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Réseaux Sociaux</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100017796376206" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/elies_kedim" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/elies-kedim-070b59167" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/elieskedim" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Elies Kedim</h3>
+                        <p>Passionné de développement informatique je m'aitrise aussi bien le développement front que back, pour toutes question je reste joignable au 07.69.49.90.39</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Elies Kedim 2018
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- ******************************************   Début de saction modal    ******************************************************* -->
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true"><!-- Début de la modal 1 -->
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container"><!-- Début container modal 1 -->
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Real Estate</h2><!-- Titre de la modal 1 -->
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Maquette1.png" class="img-responsive img-centered" alt=""><!-- Lien vers l'image -->
+                            <p>Intégration d'une maquette imobilière compète. </p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="#">Projet Perso</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="#">Juin 2018</a>
+                                    </strong>
+                                </li>
+                                <li>Languages:
+                                    <strong><a href="#">HTML/CSS</a>
+                                    </strong>
+                                </li>
+                                <li>Code source:
+                                    <strong>
+                                        <a href="https://github.com/elieskedim/maquette1" target="_blank">Github</a><!-- Lien ver le code source sur github -->
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button><!-- Ferme la modal 1 -->
+                        </div><!-- Fin modal body -->
+                    </div><!-- Fin modal col lg 8 -->
+                </div><!-- Fin modal row -->
+            </div><!-- Fin modal container -->
+        </div><!-- Fin modal content -->
+    </div><!-- Fin modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true"><!-- Debut modal 2 -->
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container"><!-- Début de la modal 2 -->
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Happy Halloween</h2><!-- Titre du projet modal 2 -->
+                            <hr class="star-primary">
+                            <img src="img/portfolio/Maquette2.png" class="img-responsive img-centered" alt=""><!-- image de la modal 2 -->
+                            <p>Maquette smartphone pour l'évenement spècial d'un client.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="#">Projet scolaire</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="#">Juin 2018</a>
+                                    </strong>
+                                </li>
+                                <li>Languages:
+                                    <strong><a href="#">HTML/CSS</a>
+                                    </strong>
+                                </li>
+                                <li>Code source:
+                                    <strong>
+                                        <a href="https://github.com/elieskedim/Maquette2" target="_blank">Github</a><!-- Lien ver le code source sur github -->
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button><!-- Boutton pour refermer la modal2 -->
+                        </div><!-- Fin modal Body -->
+                    </div><!-- Fin col lg 8 -->
+                </div><!-- Fin Row -->
+            </div><!-- Fin modal container -->
+        </div><!-- Fin modal content -->
+    </div><!-- Fin modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true"><!-- Debut modal 3 -->
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Happy Halloween</h2><!-- Titre du projet modal 3 -->
+                        <hr class="star-primary">
+                        <img src="img/portfolio/Maquette3.png" class="img-responsive img-centered" alt=""><!-- image de la modal 3 -->
+                        <p>Maquette responsive pour un restaurant</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong>
+                                    <a href="#">Projet scolaire</a>
+                                </strong>
+                            </li>
+                            <li>Date:
+                                <strong>
+                                    <a href="#">Juin 2018</a>
+                                </strong>
+                            </li>
+                            <li>Languages:
+                                <strong>
+                                    <a href="#">HTML/CSS</a>
+                                </strong>
+                            </li>
+                            <li>Code source:
+                                <strong>
+                                    <a href="https://github.com/elieskedim/Maquette2" target="_blank">Github</a><!-- Lien ver le code source sur github -->
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                            <i class="fa fa-times"></i> Fermer</button><!-- Boutton pour refermer la modal3 -->
+                    </div>
+                    <!-- Fin modal Body -->
+                </div>
+                <!-- Fin col lg 8 -->
+            </div>
+            <!-- Fin Row -->
+        </div>
+        <!-- Fin modal container -->
+    </div>
+    <!-- Fin modal content -->
+</div>
+<!-- Fin modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true"><!-- Debut Modal 4 -->
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/portfoliov1.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <script src="js/freelancer.min.js"></script><!-- Theme JavaScript -->
+
+    <script src="js/masonry.js"></script><!-- Ajout du fichier script masonry qui utilise la bibliothèque jquery -->
+
 </body>
+
 </html>

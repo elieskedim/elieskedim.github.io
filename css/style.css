@@ -1,0 +1,28 @@
+#icon-profile{
+    height: 100px;
+}/*Je change la taille de l'icone en haut du site*/
+/**************************************** Mise en place du système de grille masonry****************************/
+.masonry-column {
+  padding: 0 1px;
+}
+
+.masonry-grid > div .thumbnail {
+  margin: 5px 1px;
+}
+#about .container-fluid{
+    margin-bottom: 50px;
+}
+#about a{
+    color: #2c3e50;
+}
+.passions{
+    background-color: #fff;
+    color: #2c3e50;
+    padding: 30px;
+    text-align: center;
+    height: 500px;
+}
+.passions img{
+    height: 200px;
+    margin-bottom: 30px;
+}
